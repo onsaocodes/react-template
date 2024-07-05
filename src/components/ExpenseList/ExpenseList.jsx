@@ -29,15 +29,15 @@ function ExpenseList() {
   }
 
   return (
-    <div className="main">
-      <h1 className="main__title">Expenses</h1>
-      <div className="main__columns">
-        <p className="main__column-header">Date</p>
-        <p className="main__column-header">Merchant</p>
-        <p className="main__column-header">Amount</p>
-        <p className="main__column-header">Category</p>
-        <p className="main__column-header">Description</p>
-        <p className="main__column-header">Status</p>
+    <div className="table">
+      <h1 className="table__title">Expenses</h1>
+      <div className="table__columns">
+        <p className="table__column-header">Date</p>
+        <p className="table__column-header">Merchant</p>
+        <p className="table__column-header">Amount</p>
+        <p className="table__column-header">Category</p>
+        <p className="table__column-header">Description</p>
+        <p className="table__column-header">Status</p>
       </div>
 
       {expenses.map((expense) => {
