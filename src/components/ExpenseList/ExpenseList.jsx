@@ -32,12 +32,12 @@ function ExpenseList() {
     <div className="table">
       <h1 className="table__title">Expenses</h1>
       <div className="table__columns">
-        <p className="table__column-header">Date</p>
-        <p className="table__column-header">Merchant</p>
-        <p className="table__column-header">Amount</p>
-        <p className="table__column-header">Category</p>
-        <p className="table__column-header">Description</p>
-        <p className="table__column-header">Status</p>
+        <p className="table__column-name">Date</p>
+        <p className="table__column-name">Merchant</p>
+        <p className="table__column-name">Amount</p>
+        <p className="table__column-name">Category</p>
+        <p className="table__column-name">Description</p>
+        <p className="table__column-name">Status</p>
       </div>
 
       {expenses.map((expense) => {
