@@ -1,12 +1,8 @@
 .expense-table {
   display: flex;
-  justify-content: space-between;
-
-  &__column {
-    flex: 1;
-  }
 
   &__data {
+    flex: 1;
     &--category,
     &--status {
       text-transform: capitalize;

@@ -14,28 +14,16 @@ function Expense({ date, merchant, amount, category, description, status }) {
 
   return (
     <div className="expense-table">
-      <div className="expense-table__column">
-        <p className="expense-table__data">{formatDate(date)}</p>
-      </div>
-      <div className="expense-table__column">
-        <p className="expense-table__data">{merchant}</p>
-      </div>
-      <div className="expense-table__column">
-        <p className="expense-table__data">£{amount}</p>
-      </div>
-      <div className="expense-table__column">
-        <p className="expense-table__data expense-table__data--category ">
-          {category}
-        </p>
-      </div>
-      <div className="expense-table__column">
-        <p className="expense-table__data">{description}</p>
-      </div>
-      <div className="expense-table__column">
-        <p className="expense-table__data expense-table__data--status">
-          {status}
-        </p>
-      </div>
+      <p className="expense-table__data">{formatDate(date)}</p>
+      <p className="expense-table__data">{merchant}</p>
+      <p className="expense-table__data">£{amount}</p>
+      <p className="expense-table__data expense-table__data--category ">
+        {category}
+      </p>
+      <p className="expense-table__data">{description}</p>
+      <p className="expense-table__data expense-table__data--status">
+        {status}
+      </p>
     </div>
   );
 }
