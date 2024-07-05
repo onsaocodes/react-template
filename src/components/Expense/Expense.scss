@@ -1,0 +1,15 @@
+.expense-table {
+  display: flex;
+  justify-content: space-between;
+
+  &__column {
+    flex: 1;
+  }
+
+  &__data {
+    &--category,
+    &--status {
+      text-transform: capitalize;
+    }
+  }
+}
